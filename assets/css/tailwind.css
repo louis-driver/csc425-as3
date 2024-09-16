@@ -1335,8 +1335,8 @@ body {
 }
 
 .border-primary{
-  --tw-border-opacity: 1;
-  border-color: rgb(55 88 249 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(46 196 182 / var(--tw-bg-opacity));
 }
 
 .border-stroke{
@@ -1376,10 +1376,10 @@ body {
   --tw-bg-opacity: 1;
   background-color: rgb(214 73 55 / var(--tw-bg-opacity));
 }
-
+/* ffd599 */
 .bg-\[\#E9F9FF\]{
   --tw-bg-opacity: 1;
-  background-color: rgb(233 249 255 / var(--tw-bg-opacity));
+  background-color: rgb(255 213 153 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#F4F7FF\]{
@@ -1399,20 +1399,20 @@ body {
 
 .bg-primary{
   --tw-bg-opacity: 1;
-  background-color: rgb(55 88 249 / var(--tw-bg-opacity));
+  background-color: rgb(46 196 182 / var(--tw-bg-opacity));
 }
 
 .bg-primary\/5{
-  background-color: rgb(55 88 249 / 0.05);
+  background-color: rgb(35 180 168 / 0.05);
 }
 
 .bg-primary\/\[0\.08\]{
-  background-color: rgb(55 88 249 / 0.08);
+  background-color: rgb(35 180 168 / 0.08);
 }
 
 .bg-secondary{
   --tw-bg-opacity: 1;
-  background-color: rgb(19 194 150 / var(--tw-bg-opacity));
+  background-color: rgb(255 159 28 / var(--tw-bg-opacity));
 }
 
 .bg-stroke{
@@ -1435,6 +1435,45 @@ body {
 
 .bg-white\/\[0\.12\]{
   background-color: rgb(255 255 255 / 0.12);
+}
+
+/* My added styles */
+#added-links li {
+  margin: 1em;
+}
+
+#added-links a:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 150 22 / var(--tw-bg-opacity));
+}
+
+.bg-myblack{
+  background-color: rgb(1 22 39 / var(--tw-bg-opacity));
+}
+
+.bg-mywhite{
+  background-color: #fdfffc;
+}
+
+.bg-myprimary{
+  --tw-bg-opacity: 1;
+  background-color: rgb(46 196 182 / var(--tw-bg-opacity));
+}
+
+.bg-mysecondary1{
+  background-color: #e71d36;
+}
+
+.bg-mysecondary2{
+  background-color: #a2423b;
+}
+
+.bg-mysecondary3{
+  background-color: #8d6b94;
+}
+
+.bg-mytertiary{
+  background-color: #ff9f1c;
 }
 
 .bg-opacity-20{
@@ -1819,7 +1858,7 @@ body {
 
 .text-body-color{
   --tw-text-opacity: 1;
-  color: rgb(99 115 129 / var(--tw-text-opacity));
+  color: rgb(98 92 87 / var(--tw-text-opacity));
 }
 
 .text-body-secondary{
@@ -1854,7 +1893,7 @@ body {
 
 .text-primary{
   --tw-text-opacity: 1;
-  color: rgb(55 88 249 / var(--tw-text-opacity));
+  color: rgb(245 143 0 / var(--tw-text-opacity));
 }
 
 .text-white{
@@ -2064,7 +2103,7 @@ body {
 
 .sticky .signUpBtn{
   --tw-bg-opacity: 1;
-  background-color: rgb(55 88 249 / var(--tw-bg-opacity));
+  background-color: rgb(245 143 0 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
@@ -2178,12 +2217,12 @@ body {
 
 .hover\:border-blue-dark:hover{
   --tw-border-opacity: 1;
-  border-color: rgb(27 68 200 / var(--tw-border-opacity));
+  border-color: rgb(35 180 168 / var(--tw-border-opacity));
 }
 
 .hover\:border-primary:hover{
-  --tw-border-opacity: 1;
-  border-color: rgb(55 88 249 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(40 186 176 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-\[\#0BB489\]:hover{
@@ -2193,7 +2232,7 @@ body {
 
 .hover\:bg-blue-dark:hover{
   --tw-bg-opacity: 1;
-  background-color: rgb(27 68 200 / var(--tw-bg-opacity));
+  background-color: rgb(35 180 168 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-dark:hover{
@@ -2208,7 +2247,7 @@ body {
 
 .hover\:bg-primary:hover{
   --tw-bg-opacity: 1;
-  background-color: rgb(55 88 249 / var(--tw-bg-opacity));
+  background-color: rgb(35 180 168 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-white:hover{
@@ -2253,8 +2292,8 @@ body {
 }
 
 .focus\:border-primary:focus{
-  --tw-border-opacity: 1;
-  border-color: rgb(55 88 249 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(40 186 176 / var(--tw-bg-opacity));
 }
 
 .focus\:border-white:focus{
@@ -2368,8 +2407,8 @@ body {
 }
 
 :is(.dark .dark\:hover\:border-primary:hover){
-  --tw-border-opacity: 1;
-  border-color: rgb(55 88 249 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(40 186 176 / var(--tw-bg-opacity));
 }
 
 :is(.dark .dark\:hover\:text-primary:hover){
@@ -2383,8 +2422,8 @@ body {
 }
 
 :is(.dark .dark\:focus\:border-primary:focus){
-  --tw-border-opacity: 1;
-  border-color: rgb(55 88 249 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(40 186 176 / var(--tw-bg-opacity));
 }
 
 @media (min-width: 540px){
