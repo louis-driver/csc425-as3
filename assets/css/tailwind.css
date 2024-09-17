@@ -1447,35 +1447,6 @@ body {
   background-color: rgb(245 150 22 / var(--tw-bg-opacity));
 }
 
-.bg-myblack{
-  background-color: rgb(1 22 39 / var(--tw-bg-opacity));
-}
-
-.bg-mywhite{
-  background-color: #fdfffc;
-}
-
-.bg-myprimary{
-  --tw-bg-opacity: 1;
-  background-color: rgb(46 196 182 / var(--tw-bg-opacity));
-}
-
-.bg-mysecondary1{
-  background-color: #e71d36;
-}
-
-.bg-mysecondary2{
-  background-color: #a2423b;
-}
-
-.bg-mysecondary3{
-  background-color: #8d6b94;
-}
-
-.bg-mytertiary{
-  background-color: #ff9f1c;
-}
-
 .bg-opacity-20{
   --tw-bg-opacity: 0.2;
 }
