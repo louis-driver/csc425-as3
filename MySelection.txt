@@ -1,0 +1,10 @@
+I chose to use Tailwind as my CSS framework because while Bootstrap
+may offer faster development, the modularity is limited compared to Tailwind.
+Tailwind offers utility-first classes that should let me construct websites as 
+I see fit. As I also have an Art minor and am more interested in front-end 
+development, I'd like greater control over designing a website without the 
+contraints of bootstrap layouts. My research also showed that Tailwind can 
+be used well in conjunction with React due to React's component-based architecture,
+which we will be using in future projects. 
+
+Original Template at https://www.tailwindawesome.com/resources/play/demo 
